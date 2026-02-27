@@ -1,0 +1,50 @@
+.menu{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+}
+.cake{
+    width: 380px;
+}
+img{
+    display: block;
+}
+.caketext{
+    background-color:#FFFFFF;
+    border:1px solid black;
+    border-bottom-right-radius: px;
+    border-bottom-left-radius: 10px ;
+    padding:0px 89px 50px 44px;
+}
+.title{
+    margin-top: 50px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 143%;
+    color: #2E363E;
+}
+.description{
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: #2E363E;
+}
+.price{
+    margin-top: 24px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+    color: #2E363E;
+}
+button{
+    
+    background-color: #FED84C;
+    padding: 20px 40px 20px 40px;
+    border-radius: 8px;
+    gap:10px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 152%;
+    color: #2E363E;
+}
